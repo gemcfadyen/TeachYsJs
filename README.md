@@ -3,9 +3,12 @@ TeachYsJs
 
 This Git repository contains the examples and solutions for the "Teach Yourself JavaScript" self-teaching material.
 
-    + exercises   # contains the exercises to follow
-      + README.md # Instructions for the exercises
-    + solutions   # contains possible solutions for the exercises
-      + README.md # Overview of the solutions
-    + lib         # local copies of RequireJS, QUnit, Jasmine and Underscore
+Look in the `exercises` directory for the exercises to work through and the `solutions` directory for examples of 
+solutions to them.  The `lib` directory contains local copies of 
+[RequireJS](http://www.requirejs.org), 
+[Underscore](http://www.underscorejs.org), 
+[Jasmine](http://pivotal.github.io/jasmine/) and 
+[QUnit](http://qunitjs.com/) 
+for use in the exercises.
+
 
