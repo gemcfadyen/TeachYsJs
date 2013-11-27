@@ -5,6 +5,7 @@
             calc = new Calculator() ;
         }
     });
+   
     test("must add two simple numbers correctly", function () {
         equal(calc.add(4, 2), 6);
     });

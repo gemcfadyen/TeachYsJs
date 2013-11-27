@@ -1,7 +1,7 @@
 function Calculator() {
     "use strict";
     this.add = function (x, y) {
-        return 0;
+        return x + y;
     };
     // Add other calculation capabilities here
 }
