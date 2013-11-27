@@ -8,7 +8,12 @@
    
     test("must add two simple numbers correctly", function () {
         equal(calc.add(4, 2), 6);
+        equal(calc.add(2.5, 2.5), 5);
+        equal(calc.add(0.3, 0.3), 0.6);
+         
     });
 
-    // Add other tests here - take JavaScript's oddities into account
-    // (remember it doesn't have an integer type)
+    test("must divide two numbers correctly", function(){
+        equal(calc.divide(5, 2), 2.5);
+        equal(calc.divide(1, 0), Infinity);
+    });
